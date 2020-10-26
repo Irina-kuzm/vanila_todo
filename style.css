@@ -1,0 +1,64 @@
+
+table td:nth-of-type(1) {
+	width:20%;
+}
+table td:nth-of-type(2) {
+	width:80%;
+}
+table {
+	border: 1px solid grey;
+}
+#win {
+  margin: auto;
+  width: 500px;
+}
+input[type="button"] {
+	width: 10px;
+}
+input {
+	border: none;
+	width: 300px;
+}
+#Add {
+	background: #30d5c8;
+	width: 50px;
+	height: 28px;
+	border-radius: 4px;
+	color: white;
+}
+#red {
+	background: red;
+	color: red;
+
+}
+#blue {
+	background: blue;
+	color: blue;
+
+}
+#yellow {
+	background: #ffa400;
+	color: #ffa400;
+
+}
+#green {
+	background: green;
+	color: green;
+
+}
+#n_green {
+	background: #00d669;
+	color: #00d669;
+
+}
+#fiol {
+	background: #530cff;
+	color: #530cff;
+
+}
+
+#f {
+	border: 1px solid grey;
+	vertical-align: center;
+	padding:4px 5px;
+}
