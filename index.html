@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8"> 
+<title>Vanilla JS</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body onload="add_input()">
+<div class='window'>
+	<div>
+		<p>Your todos</p>
+	</div>
+	<div id="add_new_input" onClick="click_div(this)"></div><br>
+	<div class="input_and_button">
+			<input type="text" name="item" id="item" value="" placeholder="Add new item">			
+				<button class="blue" value="blue" >.</button>
+				<button class="yellow" value="#ffa400">.</button>
+				<button class="green" value="green">.</button>
+				<button class="red" value="red">.</button>
+				<button class="n_green" value="#00d669">.</button>
+				<button class="fiol" value="#530cff">.</button>
+				<button id="Add" value="Add"  onClick="add_item(this)">Add</button>
+	</div>
+</div>
+</body>
+</html>

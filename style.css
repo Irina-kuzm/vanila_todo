@@ -1,0 +1,78 @@
+.window {
+  margin: auto;
+  width: 510px;
+}
+button {
+	width: 10px;
+	display: inline-block;
+	cursor: default;
+	border: 1px solid white;
+}
+button:focus {
+	border: 1px solid yellow;
+}
+input {
+	border: none;
+	width: 300px;
+}
+#Add {
+	background: #30d5c8;
+	width: 50px;
+	height: 28px;
+	border-radius: 4px;
+	color: white;
+}
+.red {
+	background: red;
+	color: red;
+
+}
+.blue {
+	background: blue;
+	color: blue;
+
+}
+.yellow {
+	background: #ffa400;
+	color: #ffa400;
+
+}
+.green {
+	background: green;
+	color: green;
+
+}
+.n_green {
+	background: #00d669;
+	color: #00d669;
+
+}
+.fiol {
+	background: #530cff;
+	color: #530cff;
+
+}
+
+.input_and_button {
+	border: 1px solid grey;
+	vertical-align: center;
+	padding:4px 5px;
+	border-radius: 5px;
+}
+
+#add_new_input  {
+	width: 510px;
+
+}
+div{
+	margin: 0px 0px 2px 0px;
+	color: white;
+}
+input[type="checkbox"] {
+	width: 10px;
+	margin: 0px 20px 0px 2px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+
