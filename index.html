@@ -5,6 +5,8 @@
 <title>Vanilla JS</title>
 <link rel="stylesheet" href="style.css">
 <script src="script.js"></script>
+
+
 </head>
 
 
@@ -12,20 +14,20 @@
 <body>
 <div id='win'>
 	<div><p>Your todos</p></div>
-	<div class="add">
-		<table id="tab1">
-			<tr></tr>
-		</table>
-	</div>
+	<form onClick="Func(this)">
+	<div class="test" >
+		<div id="add_new_input"></div>
+	</div><br></form>
+	
 	<div>
-		<form id = 'f' onClick="Func(this)">	
+		<form id = 'f' >	
 			<input type="text" name="item" id="item" value="" placeholder="Add new item">			
-				<input id="blue" type="button" value="fiol">
-				<input id="yellow" type="button" value="yellow">
+				<input id="blue" type="button" value="blue" >
+				<input id="yellow" type="button" value="#ffa400">
 				<input id="green" type="button" value="green">
 				<input id="red" type="button" value="red">
-				<input id="n_green" type="button" value="n_green">
-				<input id="fiol" type="button" value="n_fiol">
+				<input id="n_green" type="button" value="#00d669">
+				<input id="fiol" type="button" value="#530cff">
 				<input id="Add" type="button" value="Add"  onClick="Add_item(this)">
 
 		</form>

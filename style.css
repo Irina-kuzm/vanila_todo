@@ -1,19 +1,15 @@
-
-table td:nth-of-type(1) {
-	width:20%;
-}
-table td:nth-of-type(2) {
-	width:80%;
-}
-table {
-	border: 1px solid grey;
-}
 #win {
   margin: auto;
-  width: 500px;
+  width: 510px;
 }
 input[type="button"] {
 	width: 10px;
+	display: inline-block;
+	cursor: default;
+	border: 1px solid white;
+}
+input[type="button"]:focus {
+	border: 1px solid yellow;
 }
 input {
 	border: none;
@@ -61,4 +57,29 @@ input {
 	border: 1px solid grey;
 	vertical-align: center;
 	padding:4px 5px;
+	border-radius: 5px;
 }
+
+#add_new_input  {
+	width: 510px;
+
+}
+div{
+	margin: 0px 0px 2px 0px;
+	color: white;
+}
+input[type="checkbox"] {
+	width: 10px;
+	margin: 0px 20px 0px 2px;
+	height: 30px;
+	vertical-align: middle;
+	
+
+}
+#text_zc {
+	margin: 0px 0px 2px 0px;
+	height: 30px;
+	color: white;
+	background-color: #c4beb7;
+}
+
